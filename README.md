@@ -17,10 +17,13 @@ are re-computed based on the assignment of points to clusters.
 # Data
 
 The data contains 3 files:
+
 (1) data.txt contains the vectorized version of documents, which has 4601 rows and
 58 columns.
+
 (2) c1.txt contains k initial cluster centroids. These centroids were chosen by
 selecting k random points from the input data.
+
 (3) c2.txt contains initial cluster centroids which are as far away as possible. You
 could do this by choosing first centroid c1 randomly, and then finding the point c2
 that is farthest from c1, then selecting c3 which is farthest from c1 and c2, and so
